@@ -1,0 +1,187 @@
+@import "reset";
+
+$brand_color: #D18B65;
+
+html, body {
+	background-image: url(/assets/img/geometry.png);
+  margin: 0;
+}
+
+.site-header {
+	display: flex;
+  position: fixed;
+	background: transparent;
+	height: 80px;
+  width: 100%;
+  justify-content: space-between;
+
+  img {
+    transform: scale(0.8);
+  }
+}
+
+.site-nav {
+  display: flex;
+  margin: auto 20px;
+}
+
+.site-nav a {
+  text-decoration: none;
+  color: $brand_color;
+  font-family: helvetica;
+  letter-spacing: -1px;
+  font-size: 25px;
+  margin: 0 20px;
+  font-weight: 900;
+
+}
+
+.site-nav a:hover {
+  color: #367366;
+}
+
+/* End of Header */
+
+.site-hero {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+
+.hero-content-container {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.site-hero img {
+  height: 200px;
+  width: 200px;
+
+}
+
+.site-hero h1 {
+  /*display: inline-block;*/
+  font-family: helvetica;
+  font-size: 60px;
+  font-weight: 900;
+  color: $brand_color;
+  margin: 40px 0 0 20px;
+  letter-spacing: -3px;
+  line-height: 1;
+  text-align: left;
+}
+
+/* End Hero */
+
+.work-container {
+  display: flex;
+  height: 400px;
+  background: #ea4c89;
+  justify-content: center;
+}
+
+.work-content {
+  display: flex-column;
+  margin: auto;
+
+}
+
+.work-container img {
+  fill: #eee;
+  margin: 0 auto;
+}
+
+.work-container h4 {
+  font-family: helvetica;
+  font-weight: 900;
+  letter-spacing: -2px;
+}
+
+/* End Work */
+
+.social-container {
+  display: flex;
+  height: 400px;
+}
+
+.social-sidekick {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.social-sidekick-content {
+  display: flex-column;
+  margin: auto;
+}
+
+.social-sidekick h4 {
+  font-family: helvetica;
+  font-weight: 900;
+  letter-spacing: -2px;
+}
+
+.social-sidekick img {
+  margin: 0 auto;
+}
+.social-sidekick img:hover {
+  color: white;
+}
+
+.social-sidekick:nth-child(1) {
+  background: #1FC0FF;
+}
+
+.social-sidekick:nth-child(2) {
+  background: #3C5A99;
+}
+
+.social-sidekick:nth-child(3) {
+  background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+}
+
+/* End Social */
+
+.contact-container {
+  display:flex;
+  height: 400px;
+  background: $brand_color;
+  /*opacity: 0.8;*/
+}
+
+.contact-container a {
+  text-decoration: none;
+  color: white;
+  font-family: helvetica;
+  font-size: 40px;
+  text-transform: lowercase;
+  letter-spacing: -2px;
+  font-weight: 900;
+  margin: auto;
+}
+
+.contact-container a:hover {
+  color: #367366;
+}
+
+/* End Contact */
+
+.site-footer {
+  display: flex;
+  justify-content: center;
+}
+
+.site-footer img {
+  transform: scale(0.7);
+}
+
+
+
+
+
+
+
+
+
+
